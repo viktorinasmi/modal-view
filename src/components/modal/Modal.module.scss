@@ -1,0 +1,21 @@
+.container {
+  background-color: rgba(171, 171, 171, 0.2);
+  border-radius: 6px;
+  padding: 12px;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 99;
+  transition: transform 0.15s ease 0s, opacity 0.15s ease 0s;
+  transform: scale(1);
+}
+
+.wrapperImg {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.wrapperGiphy {
+  padding: 16px;
+}
